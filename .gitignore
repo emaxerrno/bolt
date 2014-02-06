@@ -11,3 +11,20 @@
 *.lai
 *.la
 *.a
+
+# Rust. Copied form servo/serve-http
+w*~
+*.dSYM/
+*.swp
+src/bolt/generated/
+bin/
+build/
+TAGS
+doc/bolt/
+doc/src/bolt/
+lib/
+.rust/
+
+#emacs
+*.*~
+*~
